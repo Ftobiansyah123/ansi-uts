@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Tobi</Author>
+  <LastAuthor>Tobi</LastAuthor>
+  <Created>2021-10-08T12:18:28Z</Created>
+  <LastSaved>2021-10-08T12:31:52Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7875</WindowHeight>
+  <WindowWidth>20400</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s31" ss:Name="Calculation">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#7F7F7F"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#7F7F7F"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#7F7F7F"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#7F7F7F"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FA7D00"
+    ss:Bold="1"/>
+   <Interior ss:Color="#F2F2F2" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s26" ss:Name="Good">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#006100"/>
+   <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s29" ss:Name="Input">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#7F7F7F"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#7F7F7F"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#7F7F7F"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#7F7F7F"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#3F3F76"/>
+   <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s28" ss:Name="Neutral">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#9C5700"/>
+   <Interior ss:Color="#FFEB9C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s30" ss:Name="Output">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#3F3F3F"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#3F3F3F"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#3F3F3F"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#3F3F3F"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#3F3F3F"
+    ss:Bold="1"/>
+   <Interior ss:Color="#F2F2F2" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s75" ss:Parent="s26">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3"
+     ss:Color="#3F3F3F"/>
+    <Border ss:Position="Left" ss:LineStyle="Double" ss:Weight="3"
+     ss:Color="#3F3F3F"/>
+    <Border ss:Position="Right" ss:LineStyle="Double" ss:Weight="3"
+     ss:Color="#3F3F3F"/>
+    <Border ss:Position="Top" ss:LineStyle="Double" ss:Weight="3"
+     ss:Color="#3F3F3F"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s76" ss:Parent="s28">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3"
+     ss:Color="#3F3F3F"/>
+    <Border ss:Position="Left" ss:LineStyle="Double" ss:Weight="3"
+     ss:Color="#3F3F3F"/>
+    <Border ss:Position="Right" ss:LineStyle="Double" ss:Weight="3"
+     ss:Color="#3F3F3F"/>
+    <Border ss:Position="Top" ss:LineStyle="Double" ss:Weight="3"
+     ss:Color="#3F3F3F"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s81" ss:Parent="s30">
+   <NumberFormat
+    ss:Format="_([$IDR]\ * #,##0.000_);_([$IDR]\ * \(#,##0.000\);_([$IDR]\ * &quot;-&quot;??_);_(@_)"/>
+  </Style>
+  <Style ss:ID="s83" ss:Parent="s30">
+   <NumberFormat
+    ss:Format="_([$IDR]\ * #,##0_);_([$IDR]\ * \(#,##0\);_([$IDR]\ * &quot;-&quot;??_);_(@_)"/>
+  </Style>
+  <Style ss:ID="s84" ss:Parent="s31">
+   <NumberFormat
+    ss:Format="_([$IDR]\ * #,##0_);_([$IDR]\ * \(#,##0\);_([$IDR]\ * &quot;-&quot;??_);_(@_)"/>
+  </Style>
+  <Style ss:ID="s85" ss:Parent="s31">
+   <NumberFormat
+    ss:Format="_([$IDR]\ * #,##0.00_);_([$IDR]\ * \(#,##0.00\);_([$IDR]\ * &quot;-&quot;??_);_(@_)"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="24" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="72.75"/>
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="120.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="73.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="102"/>
+   <Column ss:AutoFitWidth="0" ss:Width="63.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="84.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="117"/>
+   <Column ss:AutoFitWidth="0" ss:Width="124.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="86.25"/>
+   <Row ss:Index="3" ss:Height="15.75">
+    <Cell ss:Index="4" ss:MergeAcross="2" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:Index="3" ss:StyleID="s75"><Data ss:Type="String">Nama Pegawai</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">No. Pegawai</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">No. Kasir</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s76"><Data ss:Type="String">Nama Barang</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Harga satuan</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">diskon</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="3" ss:StyleID="s30"><Data ss:Type="String">Bella</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">936372</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s30"><Data ss:Type="String">DORITOS 160G</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">11000</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">1500</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:Index="8" ss:StyleID="s30"><Data ss:Type="String">SOSRO THE BOTOL 350</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">4000</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:Index="8" ss:StyleID="s30"><Data ss:Type="String">SAMPOERNA MILD 16'S</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">25700</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:Index="8" ss:StyleID="s30"/>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:Index="15">
+    <Cell ss:Index="3" ss:StyleID="s29"><Data ss:Type="String">Barang Keluar</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Kuantitas</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Harga Barang Satuan</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">DISKON</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Barang total</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s30"><Data ss:Type="String">DORITOS 160G</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">11000</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">1500</Data></Cell>
+    <Cell ss:StyleID="s85" ss:Formula="=(RC[-3]*RC[-2]-RC[-1])"><Data
+      ss:Type="Number">9500</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s30"><Data ss:Type="String">SOSRO THE BOTOL 350</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">4000</Data></Cell>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s85" ss:Formula="=(RC[-3]*RC[-2]-RC[-1])"><Data
+      ss:Type="Number">8000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s30"><Data ss:Type="String">SAMPOERNA MILD 16'S</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">25700</Data></Cell>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s85" ss:Formula="=(RC[-3]*RC[-2]-RC[-1])"><Data
+      ss:Type="Number">25700</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="6" ss:StyleID="s31"><Data ss:Type="String">Total</Data></Cell>
+    <Cell ss:StyleID="s84" ss:Formula="=SUM(R[-8]C:R[-6]C)"><Data ss:Type="Number">43200</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-3</HorizontalResolution>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>11</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>20</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
